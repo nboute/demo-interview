@@ -1,0 +1,12 @@
+:host {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100%;
+    min-height: 100vh;
+	.content {
+		flex: 1 1 auto; /* Content will grow and shrink as needed, taking up available space */
+	  overflow: auto; /* Allow content to scroll if it overflows the container */
+
+		padding: 50px;
+	}
+}
